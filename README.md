@@ -5,21 +5,37 @@ This project demonstrates an end-to-end data analytics workflow, covering data c
 
 ---
 
-## 📂 Project Files
+## 📊 Tableau Dashboard Snapshot
 
-- **`london-bike-sharing-dataset.zip`**: Original dataset downloaded from Kaggle.
-- **`london_bike_sharing.ipynb`**: Python notebook containing data extraction, cleaning, and preprocessing using pandas.
-- **`london_bikes_final.xlsx`**: Cleaned and processed dataset ready for visualization.
-- **`London_Bike_Sharing.twbx`**: Tableau workbook with interactive visualizations and dashboards.
-- **`Dashboard 1.png`**: Snapshot image of the final Tableau dashboard.
+![Dashboard Snapshot](Dashboard%201.png)
+
+## 📌 View Dashboard
+- [London Bike Sharing Dashboard](https://public.tableau.com/views/London_Bike_Sharing_17539971104580/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-## 🛠️ Tools and Technologies
+## 🎯 Project Objectives
+- Demonstrate proficiency in Python for data analysis.
+- Showcase ability to create dynamic, user-friendly visualizations in Tableau.
+- Provide actionable insights through interactive dashboards.
 
-- **Python**: Data extraction and cleaning (pandas, Kaggle API)
-- **Tableau**: Data visualization, dashboard creation, interactivity (calculated fields, parameters, set actions)
-- **Jupyter Notebook**: Code development and documentation
+---
+
+## 🔍 Insights Targeted
+- **Objectives:**
+  - Understand the relationship between weather conditions (temperature, wind speed) and bike-sharing usage.
+  - Analyze seasonal and temporal trends in bike-sharing.
+  - Identify peak usage periods and influencing factors.
+
+- **Derived Insights:**
+  - Higher bike usage corresponds to moderate temperature ranges (approximately 12-20°C).
+  - Lower wind speeds generally correlate with increased bike usage.
+  - Usage shows clear seasonal trends with peak rides occurring during warmer months.
+
+- **Dashboard Contribution:**
+  - Interactive filters and dynamic moving average parameters allowed a detailed exploration of temporal trends.
+  - Heatmap visualizations effectively highlighted relationships between environmental conditions and bike usage.
+  - Tooltips provided quick contextual insights, breaking down usage by weather and hour, enabling deeper understanding of user behavior.
 
 ---
 
@@ -43,16 +59,22 @@ This project demonstrates an end-to-end data analytics workflow, covering data c
 
 ---
 
-## 📊 Tableau Dashboard Snapshot
+## 🛠️ Tools and Technologies
 
-![Dashboard Snapshot](Dashboard%201.png)
+- **Python**: Data extraction and cleaning (pandas, Kaggle API)
+- **Tableau**: Data visualization, dashboard creation, interactivity (calculated fields, parameters, set actions)
+- **Jupyter Notebook**: Code development and documentation
 
 ---
 
-## 🎯 Project Objectives
-- Demonstrate proficiency in Python for data analysis.
-- Showcase ability to create dynamic, user-friendly visualizations in Tableau.
-- Provide actionable insights through interactive dashboards.
+
+## 📂 Project Files
+
+- **`london-bike-sharing-dataset.zip`**: Original dataset downloaded from Kaggle.
+- **`london_bike_sharing.ipynb`**: Python notebook containing data extraction, cleaning, and preprocessing using pandas.
+- **`london_bikes_final.xlsx`**: Cleaned and processed dataset ready for visualization.
+- **`London_Bike_Sharing.twbx`**: Tableau workbook with interactive visualizations and dashboards.
+- **`Dashboard 1.png`**: Snapshot image of the final Tableau dashboard.
 
 ---
 
@@ -69,11 +91,6 @@ This project demonstrates an end-to-end data analytics workflow, covering data c
 
 ## 📌 Dataset Source
 - [London Bike Sharing Dataset - Kaggle](https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset)
-
----
-
-## 🙌 Acknowledgments
-- Special thanks to Mo Chen for the detailed guidance and inspiration in his [original YouTube project](https://www.youtube.com/watch?v=JaUKDbCXMX4).
 
 ---
 
